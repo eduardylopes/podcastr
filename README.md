@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="" alt="Podcastr" width="280"/>
+   <img src="https://user-images.githubusercontent.com/60992933/149849512-45d1b1eb-0b54-4889-9166-864470fa39b6.png" alt="Podcastr" width="280"/>
 </p>
 
 <b>Podcastr</b> é um projeto construído em React com TypeScript, utilizando NextJS, durante Next Level Week #05 da [Rocketseat](https://github.com/Rocketseat). Esse projeto tem como base reproduzir Podcasts.
@@ -8,6 +8,13 @@
 
 - [Tecnologias](#tecnologias)
 - [Executando](#executando)
+
+### Demostração
+
+<div>
+  <img src="https://user-images.githubusercontent.com/60992933/149849604-0b822cf0-a5c8-425b-8304-526d953ad2d7.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/60992933/149849605-16c6a72d-13d9-4cc7-98b9-d80df1da0ea1.png" width="400" />
+</div>
 
 ### Demonstração
 
@@ -33,7 +40,7 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 ### 1. Clone o repositório
 
 ```bash
-git@github.com:tavareshenrique/podcastr-nlw.git
+git@github.com:eduardylopes/podcastr.git
 ```
 
 ### 2. Instale as dependencias
