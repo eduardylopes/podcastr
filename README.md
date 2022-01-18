@@ -16,8 +16,6 @@
   <img src="https://user-images.githubusercontent.com/60992933/149849605-16c6a72d-13d9-4cc7-98b9-d80df1da0ea1.png" width="400" />
 </div>
 
-### Demonstração
-
 <div>
   <img src="" width="400" />
   <img src="" width="400" />
