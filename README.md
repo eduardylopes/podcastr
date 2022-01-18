@@ -30,25 +30,25 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 
 ### Executando
 
-### 1. Clone o repositório
+1. Clone o repositório
 
 ```bash
 git@github.com:eduardylopes/podcastr.git
 ```
 
-### 2. Instale as dependencias
+2. Instale as dependencias
 
 ```bash
 npm install
 ```
 
-### 3. Inicie o servidor através do JSON Sever
+3. Inicie o servidor através do JSON Sever
 
 ```bash
 json-server server.json -w -p 3333
 ```
 
-### 5. Inicie o Projeto
+5. Inicie o Projeto
 
 ```bash
 npm run start
