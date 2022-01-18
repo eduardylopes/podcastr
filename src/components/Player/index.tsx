@@ -67,7 +67,7 @@ export function Player() {
   return (
     <div className={styles.playerContainer}>
       <header>
-        <img src="/playing.svg" alt="Tocando agora" />
+        <Image src="/playing.svg" alt="Tocando agora" />
         <strong>Tocando agora</strong>
       </header>
 
@@ -78,6 +78,7 @@ export function Player() {
             height={592}
             src={episode.thumbnail}
             objectFit='cover'
+            alt="thumbnail"
           />
           <strong>{episode.title}</strong>
           <span>{episode.members}</span>
