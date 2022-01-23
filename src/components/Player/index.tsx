@@ -67,7 +67,7 @@ export function Player() {
   return (
     <div className={styles.playerContainer}>
       <header>
-        <Image src="/playing.svg" alt="Tocando agora" />
+        <img src="/playing.svg" alt="Tocando agora" />
         <strong>Tocando agora</strong>
       </header>
 
@@ -130,14 +130,14 @@ export function Player() {
             onClick={toogleShuffle}
             className={isShuffling ? styles.isActive : ''}
           >
-            <Image src="/shuffle.svg" alt="Embaralhar" />
+            <img src="/shuffle.svg" alt="Embaralhar" />
           </button>
           <button 
             type="button" 
             disabled={!episode  || !hasPrevious}
             onClick={playPrevious}
           >
-            <Image src="/play-previous.svg" alt="Tocar anterior" />
+            <img src="/play-previous.svg" alt="Tocar anterior" />
           </button>
           <button 
             type="button" 
@@ -146,8 +146,8 @@ export function Player() {
             onClick={togglePlay}
           >
             { isPlaying 
-              ? <Image src="/pause.svg" alt="Pausar" />
-              : <Image src="/play.svg" alt="Tocar" />
+              ? <img src="/pause.svg" alt="Pausar" />
+              : <img src="/play.svg" alt="Tocar" />
             }
           </button>
           <button 
@@ -155,7 +155,7 @@ export function Player() {
             disabled={!episode || !hasNext}
             onClick={playNext}
           >
-            <Image src="/play-next.svg" alt="Tocar próxima" />
+            <img src="/play-next.svg" alt="Tocar próxima" />
           </button>
           <button 
             type="button" 
@@ -163,7 +163,7 @@ export function Player() {
             onClick={toggleLoop}
             className={isLooping ? styles.isActive : ''}
           >
-            <Image src="/repeat.svg" alt="Repetir" />
+            <img src="/repeat.svg" alt="Repetir" />
           </button>
         </div>
       </footer>

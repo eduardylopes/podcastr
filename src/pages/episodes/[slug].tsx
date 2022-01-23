@@ -39,7 +39,7 @@ export default function Episodes({ episode }: EpisodeProps) {
             <div className={styles.thumbnailContainer}>
                 <Link href="/">
                     <button type="button">
-                        <Image src="/arrow-left.svg" alt="voltar" />
+                        <img src="/arrow-left.svg" alt="voltar" />
                     </button>
                 </Link>
                 <Image 
@@ -50,7 +50,7 @@ export default function Episodes({ episode }: EpisodeProps) {
                     alt="thumbnail"
                 />
                 <button type="button" onClick={() => play(episode)}>
-                    <Image src="/play.svg" alt="Tocar episódio" />
+                    <img src="/play.svg" alt="Tocar episódio" />
                 </button>
             </div>
 
