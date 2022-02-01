@@ -53,11 +53,3 @@ json-server server.json -w -p 3333
 ```bash
 npm run start
 ```
-
-### Desafios
-
-- [ ] Documentar projeto
-- [ ] Atualizar README.md
-- [ ] Inserir Logo e Prints do projeto
-- [ ] Criar um dark-theme
-- [ ] Ajustar responsividade para dispositivos móveis
